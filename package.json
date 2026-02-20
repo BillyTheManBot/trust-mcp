@@ -1,0 +1,39 @@
+{
+  "name": "@trustthenverify/trust-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for AI agent trust verification. Verify agents before you transact.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "trust-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "ai-agent",
+    "trust",
+    "verification",
+    "lightning",
+    "openclaw",
+    "claude"
+  ],
+  "author": "Billy <billythemanbot@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trustthenverify/trust-mcp"
+  },
+  "homepage": "https://trustthenverify.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
