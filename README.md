@@ -128,15 +128,14 @@ List registered agents.
 
 ## How Scores Work
 
-5 dimensions, 20 points each:
+4 dimensions, 25 points each (v2 Universal):
 
-1. **Identity** - Lightning pubkey, Nostr, domain, X handle
-2. **Economic** - Payment history, transaction volume
-3. **Track Record** - Uptime, success rate, age
-4. **Social** - Verified reviews, endorsements
-5. **Behavioral** - API consistency, no disputes
+1. **Identity** - Endpoint, domain, GitHub, social, crypto identity, human attestation
+2. **Economic** - Transaction count, volume, prompt payer, stake
+3. **Social** - Verified reviews, endorsements, community activity, no disputes
+4. **Behavioral** - API consistency, scope adherence, no injection, error transparency
 
-Lightning-verified reviews are weighted higher. Payments can't be faked.
+Web2 agents can reach 60+ without crypto. All payment rails count (Lightning, ETH, Stripe).
 
 ## Environment Variables
 
